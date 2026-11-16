@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",                     /* Versão do JavaScript gerada */
+    "module": "NodeNext",                   /* Sistema de módulos para o Node moderno */
+    "moduleResolution": "NodeNext",         /* Resolução de módulos */
+    "rootDir": "./src",                     /* Onde ficam os arquivos fonte .ts */
+    "outDir": "./dist",                     /* Onde o código compilado em JS será salvo */
+    "esModuleInterop": true,                /* Permite importar CommonJS como ES Modules */
+    "strict": true,                         /* Ativa todas as checagens estritas de tipo */
+    "skipLibCheck": true                    /* Pula checagem de tipos de bibliotecas de terceiros */
+  },
+  "include": ["src/**/*"]
+}
